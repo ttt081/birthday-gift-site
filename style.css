@@ -1,0 +1,110 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Happy Monkey", system-ui;
+  background: linear-gradient(#90caf9, pink);
+  color: #ffffff;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px dotted; */
+}
+h1,
+h2,
+h3 {
+  text-shadow: 0 0 5px #f15152;
+}
+#ppic {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #ff758f;
+}
+.date {
+  /* border: 2px dotted; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.date h2,
+.date h3 {
+  background-color: #134074;
+  padding: 8px 8px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #ff758f;
+}
+.date h2 {
+  margin: 15px 0 0 0;
+}
+.date h3 {
+  margin: 10px 0 25px 0;
+}
+
+.gift-section {
+  margin: 15px 0;
+  padding: 0;
+}
+.gift-section h3 {
+  margin: 15px;
+  padding: 0;
+}
+.gift-card {
+  background-image: url("./giftcard.png");
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: 0 0 25px yellow;
+}
+
+#happy-birthday:hover {
+  background-image: url("./happy-birthday.webp");
+  width: 300px;
+  height: 300px;
+}
+#welcoming-ppl:hover {
+  background-image: url("./welcoming.webp");
+}
+#genius:hover {
+  background-image: url("./einstein.webp");
+}
+#cute:hover {
+  background-image: url("./cute-girl.webp");
+}
+
+#footer {
+  margin: 48px 0;
+}
+.ita {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.click {
+  margin: 0;
+  font-style: italic;
+}
+#msg {
+  border: 2px solid pink;
+  background-color: pink;
+  text-decoration: none;
+  box-shadow: 0 0 10px pink;
+  border-radius: 5px;
+  margin-left: 15px;
+}
